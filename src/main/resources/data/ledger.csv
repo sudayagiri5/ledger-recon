@@ -1,0 +1,11 @@
+txnId,date,amount,counterparty
+TXN-1001,2026-02-01,1500.00,ACME Payments
+TXN-1002,2026-02-01,250.75,Northwind Trading
+TXN-1003,2026-02-02,9800.00,Globex Capital
+TXN-1004,2026-02-02,42.10,Initech Services
+TXN-1005,2026-02-03,1200.00,Soylent Corp
+TXN-1006,2026-02-03,3300.50,Umbrella Holdings
+TXN-1007,2026-02-04,76.00,Wayne Enterprises
+TXN-1008,2026-02-04,540.00,Stark Industries
+TXN-1009,2026-02-05,8100.25,Wonka Industries
+TXN-1010,2026-02-05,15.99,Hooli Inc

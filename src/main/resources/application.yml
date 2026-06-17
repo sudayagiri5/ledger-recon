@@ -1,0 +1,28 @@
+spring:
+  application:
+    name: ledger-recon
+  datasource:
+    url: jdbc:h2:mem:recon;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+    driver-class-name: org.h2.Driver
+  h2:
+    console:
+      enabled: true
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    open-in-view: false
+  batch:
+    jdbc:
+      initialize-schema: always
+    job:
+      enabled: true   # run reconciliationJob on startup
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org.springframework.batch: INFO
+    com.sudayagiri.ledgerrecon: INFO
