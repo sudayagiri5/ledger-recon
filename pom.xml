@@ -17,9 +17,10 @@
   <name>ledger-recon</name>
   <description>A Spring Batch reference implementation of a transaction reconciliation pipeline (synthetic data).</description>
 
-  <properties>
+ <properties>
     <java.version>17</java.version>
-  </properties>
+    <maven.compiler.release>17</maven.compiler.release>
+</properties>
 
   <dependencies>
     <dependency>
