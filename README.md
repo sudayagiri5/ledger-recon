@@ -1,12 +1,14 @@
 # ledger-recon
 
-A small, runnable **Spring Batch** reference implementation of a **transaction reconciliation pipeline** — the kind of financial-operations automation I build day to day. It ingests two independent transaction feeds (an internal ledger and an external bank statement), matches them, classifies every exception, and serves the results over a REST API.
+> Original work by **Sairaghav Udayagiri** ([@sudayagiri5](https://github.com/sudayagiri5)). Licensed under MIT, commit history verifies authorship.
 
-> **Note:** This is an original reference project built from scratch with **synthetic data**. It contains no employer code or proprietary logic — it demonstrates the *patterns* behind production reconciliation work.
+A small, runnable **Spring Batch** reference implementation of a **transaction reconciliation pipeline**, the kind of financial-operations automation I build day to day. It ingests two independent transaction feeds (an internal ledger and an external bank statement), matches them, classifies every exception, and serves the results over a REST API.
+
+> **Note:** This is an original reference project built from scratch with **synthetic data**. It contains no employer code or proprietary logic; it demonstrates the *patterns* behind production reconciliation work.
 
 ## Why reconciliation?
 
-Reconciliation is one of the most common back-office problems in banking and fintech: two systems each think they know what happened, and someone has to prove they agree. By hand it doesn't scale. This project is the automated version — ingest, match, flag, report — built the way a resilient batch job should be.
+Reconciliation is one of the most common back-office problems in banking and fintech: two systems each think they know what happened, and someone has to prove they agree. By hand it doesn't scale. This project is the automated version (ingest, match, flag, report), built the way a resilient batch job should be.
 
 ## What it does
 
